@@ -1,0 +1,52 @@
+.post{
+    padding: 10px;
+    width:100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: left;
+    display: inline-block;
+  }
+
+.image{
+    border-radius: 8px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.title{
+    font-size: 17px;
+    text-align: left;
+}
+
+.artist{
+    font-size: 14px;
+    text-align: left;
+}
+
+.priceandheart{
+    margin-top: 18px;
+    
+}
+
+.item-price{
+    
+ 
+    margin-left: 5px;
+    
+}
+
+.price-and-icon{
+    float: left;
+}
+
+.item-heart{
+    margin-left: 5px;
+}
+
+  
+
+.right{
+    
+  float: right;
+  margin-right: 5px;
+}

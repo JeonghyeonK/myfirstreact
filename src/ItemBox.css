@@ -1,0 +1,49 @@
+.item-box{
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    width:120px;
+    height: 200px;
+    color: black;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.thumbnail{
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.title{
+    font-size: 17px;
+}
+
+.artist{
+    font-size: 14px;
+}
+
+.priceandheart{
+    margin-top: 18px;
+    
+}
+
+.item-price{
+    margin-left: 5px;
+}
+
+.item-heart{
+    margin-left: 5px;
+}
+
+  
+
+.right{
+    
+  float: right;
+  margin-right: 5px;
+}

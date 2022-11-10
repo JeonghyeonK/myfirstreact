@@ -1,0 +1,23 @@
+.one-line{
+    width: 97%;
+}
+
+
+textarea{
+    width: 97%;
+    height: 100px;
+}
+
+.text_zone{
+    display: inline-block;
+    width: 82%;
+}
+
+.file_zone{
+    display: inline-block;
+    width: 18%;
+}
+
+.nsns{
+    height: 100px;
+}

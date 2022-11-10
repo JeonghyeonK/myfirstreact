@@ -2,8 +2,8 @@
     margin: 10px 20px 10px 0px;
     padding: 10px;
     border-radius: 10px;
-    width:120px;
-    height: 200px;
+    width:135px;
+    height: 220px;
     color: black;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
@@ -14,13 +14,14 @@
 
 .thumbnail{
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     background-color: skyblue;
 }
 
 .title{
     font-size: 17px;
+    font-weight: 500;
 }
 
 .artist{

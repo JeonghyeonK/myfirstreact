@@ -1,5 +1,4 @@
 import "./ItemBox.css";
-import PostPage from "./pages/PostPage";
 
 // 사용할 아이콘 import
 import "./FontAwesome";

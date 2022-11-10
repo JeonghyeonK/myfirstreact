@@ -37,7 +37,7 @@ const ContentList = () => {
         ))}
       </div>
 
-      <h2>Category</h2>
+      <h2 class="big-text">Category</h2>
       <div class="wrap-vertical">
         <div class="category-box">Art</div>
         <div class="category-box">Photo</div>

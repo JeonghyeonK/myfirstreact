@@ -51,8 +51,17 @@
   float: right;
   margin-right: 5px;
 }
+.desc{
+    margin-top: 40px;
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+
+}
 
 .description{
+    margin-top: 10px;
     width: 100%;
+    text-align: left;
     white-space: normal;
 }

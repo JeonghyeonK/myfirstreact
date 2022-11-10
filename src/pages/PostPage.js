@@ -35,7 +35,7 @@ const PostPage = (props) => {
   return (
     <div className="wrap-horizontal">
       <img class="image" src={Content.url} alt=""></img>
-      <h3 class="title">{Content.nftName}</h3>
+      <p class="title">{Content.nftName}</p>
       <p class="artist">{Content.username}</p>
 
       <div class="priceandheart">
@@ -48,7 +48,7 @@ const PostPage = (props) => {
           <span class="item-heart">{Content.likes}</span>
         </span>
       </div>
-      <h2>Description</h2>
+      <h2 class="desc">Description</h2>
       <p class="description">{Content.description}</p>
     </div>
   );

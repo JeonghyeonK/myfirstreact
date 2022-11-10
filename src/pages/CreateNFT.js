@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 import "../ContentList.css";
 import "./CreateNFT.css";
 import "../common.css";
@@ -36,10 +37,10 @@ const CreateNFT = () => {
 
   const uploadPost = () => {
     const requestFileDto = {
-      username: "user1",
+      username: "BayB",
       nftName: account.title,
       type: "Art",
-      price: 10001,
+      price: 19,
       description: account.description,
     };
     console.log("file : " + account.file);
@@ -62,6 +63,7 @@ const CreateNFT = () => {
       console.log(res);
       //setFile(null);
       //Router.push("/feedMain");
+      window.location.href = "/";
     });
   };
 
@@ -69,7 +71,7 @@ const CreateNFT = () => {
     <div class="wrap-horizontal">
       {/* 하단 네비게이션 최상위 태그 */}
 
-      <h2>Title</h2>
+      <h2>Name</h2>
       <input
         type="text"
         name="title"

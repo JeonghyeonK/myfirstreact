@@ -24,7 +24,7 @@ const PostPage = (props) => {
     axios
       .get(
         "http://ec2-3-39-248-132.ap-northeast-2.compute.amazonaws.com/find?url=" +
-          urlParams.get("url")  
+          urlParams.get("url")
       )
       .then((response) => {
         setContent(response.data);
@@ -48,6 +48,8 @@ const PostPage = (props) => {
           <span class="item-heart">{Content.likes}</span>
         </span>
       </div>
+      <h2>Description</h2>
+      <p class="description">{Content.description}</p>
     </div>
   );
 };

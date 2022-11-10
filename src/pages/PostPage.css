@@ -25,6 +25,7 @@
 
 .priceandheart{
     margin-top: 18px;
+    height: 20px;
     
 }
 
@@ -49,4 +50,9 @@
     
   float: right;
   margin-right: 5px;
+}
+
+.description{
+    width: 100%;
+    white-space: normal;
 }

@@ -21,7 +21,8 @@
     border-radius: 10px;
     width:70px;
     height: 70px;
-    background-color: palegreen;
+    color: white;
+    background-color: rgb(178, 178, 248);
     display: inline-block;
     line-height: 70px;
     vertical-align: middle;

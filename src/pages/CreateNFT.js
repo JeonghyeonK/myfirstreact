@@ -69,7 +69,7 @@ const CreateNFT = () => {
     <div class="wrap-horizontal">
       {/* 하단 네비게이션 최상위 태그 */}
 
-      <h2>Name</h2>
+      <h2>Name </h2>
       <input
         type="text"
         name="title"

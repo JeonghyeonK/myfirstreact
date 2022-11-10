@@ -81,8 +81,8 @@ const CreateNFT = () => {
         onChange={onChangeAccount}
       ></input>
 
-      <h2>Contents</h2>
-      <h4>
+      <h2 className="bigtext">Contents</h2>
+      <h4 className="smalltext">
         File types supported: JPG, PNG, GIF, SVG, MP4, MP3, WAV, OGG, GLB, GLTF.
         Max size: 100 MB
       </h4>
@@ -93,12 +93,13 @@ const CreateNFT = () => {
         onChange={onChangeFile}
       ></input>
 
-      <h2>Description</h2>
-      <h4>
+      <h2 className="bigtext">Description</h2>
+      <h4 className="smalltext">
         The description will be included on the item’s detail page underneath
         its image.
       </h4>
       <textarea
+        className="smalltext"
         name="description"
         size="20"
         placeholder="Provide detailed descriptions of your item."

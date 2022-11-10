@@ -21,3 +21,17 @@ textarea{
 .nsns{
     height: 100px;
 }
+
+.name{
+    margin-bottom: 10px;
+
+}
+
+.bigtext{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.smalltext{
+    margin-bottom: 15px;
+}

@@ -37,10 +37,10 @@ const CreateNFT = () => {
 
   const uploadPost = () => {
     const requestFileDto = {
-      username: "BayB",
+      username: "monkmonk",
       nftName: account.title,
       type: "Art",
-      price: 19,
+      price: 0,
       description: account.description,
     };
     console.log("file : " + account.file);

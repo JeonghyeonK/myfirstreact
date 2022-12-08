@@ -12,7 +12,7 @@ const ContentList = () => {
   useEffect(() => {
     axios
       .get(
-        "http://ec2-3-39-248-132.ap-northeast-2.compute.amazonaws.com/10files"
+        "http://ec2-3-38-105-156.ap-northeast-2.compute.amazonaws.com/10files"
       )
       .then((response) => {
         setItemBox(response.data);

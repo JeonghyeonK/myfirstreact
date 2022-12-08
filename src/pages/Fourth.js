@@ -7,7 +7,7 @@ import "../common.css";
 //     try {
 //       //응답 성공
 //       const response = await axios.get(
-//         "http://ec2-3-39-248-132.ap-northeast-2.compute.amazonaws.com/10files"
+//         "http://ec2-3-38-105-156.ap-northeast-2.compute.amazonaws.com/10files"
 //       );
 //       console.log(response);
 //     } catch (error) {

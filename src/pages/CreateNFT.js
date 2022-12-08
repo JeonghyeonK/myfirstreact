@@ -54,7 +54,7 @@ const CreateNFT = () => {
 
     axios({
       method: "POST",
-      url: "http://ec2-3-39-248-132.ap-northeast-2.compute.amazonaws.com/api/upload",
+      url: "http://ec2-3-38-105-156.ap-northeast-2.compute.amazonaws.com/api/upload",
       headers: {
         "Content-Type": "multipart/form-data",
       },

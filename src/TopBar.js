@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./TopBar.css";
+import "./SideBar.js";
 import { Link } from "react-router-dom";
 // 사용할 아이콘 import
 import "./FontAwesome";

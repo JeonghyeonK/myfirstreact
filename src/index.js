@@ -6,11 +6,13 @@ import { BrowserRouter } from "react-router-dom";
 import TopBar from "./TopBar";
 import BottomNav from "./BottomNav";
 import reportWebVitals from "./reportWebVitals";
+import SideBar from "./SideBar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <SideBar width={200}></SideBar>
       <TopBar />
       <BottomNav />
       <App />

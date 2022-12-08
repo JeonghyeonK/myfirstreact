@@ -1,10 +1,26 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./sidebar.module.css";
+import detectEthereumProvider from "@metamask/detect-provider";
+import { Web3Provider } from "@ethersproject/providers";
+import Web3 from "web3";
+import { Link } from "react-router-dom";
+import "./FontAwesome";
+// FontAwesomIcon 컴포넌트를 사용하기 위해 import
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Sidebar = ({ width = 280, children }) => {
   const [isOpen, setOpen] = useState(false);
   const [xPosition, setX] = useState(-width);
   const side = useRef();
+  const [account, setAccount] = useState("");
+
+  const connectWallet = async () => {
+    account = await window.ethereum.request({
+      method: "eth_requestAccounts",
+    });
+
+    setAccount(account[0]);
+  };
 
   // button 클릭 시 토글
   const toggleMenu = () => {
@@ -46,18 +62,42 @@ const Sidebar = ({ width = 280, children }) => {
         }}
       >
         <button onClick={() => toggleMenu()} className={styles.button}>
-          {isOpen ? (
-            <span>X</span>
-          ) : (
-            <img
-              src="images/avatar.png"
-              alr="contact open button"
-              className={styles.openBtn}
-            />
-          )}
+          {isOpen ? <span>X</span> : <>≡</>}
         </button>
-        <div className={styles.content}>{children}</div> //사이드바 컴포넌트
-        내부 값이 구현되는 위치
+        <button onClick={() => connectWallet()} className={styles.button2}>
+          {<span>로그인</span>}
+        </button>
+        <div className={styles.content}>
+          <Link
+            to="/contentlist/art"
+            className="nav-links"
+            onClick={() => toggleMenu()}
+          >
+            <p>Art</p>
+          </Link>
+          <Link
+            to="/contentlist/photo"
+            className="nav-links"
+            onClick={() => toggleMenu()}
+          >
+            <p>Photo</p>
+          </Link>
+          <Link
+            to="/contentlist/video"
+            className="nav-links"
+            onClick={() => toggleMenu()}
+          >
+            <p>Video</p>
+          </Link>
+          <Link
+            to="/contentlist/music"
+            className="nav-links"
+            onClick={() => toggleMenu()}
+          >
+            <p>Music</p>
+          </Link>
+        </div>
+        {/* 사이드바 */}
       </div>
     </div>
   );

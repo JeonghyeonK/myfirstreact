@@ -25,7 +25,7 @@ const ContentList = (props) => {
     <div class="wrap-horizontal">
       {/* 하단 네비게이션 최상위 태그 */}
 
-      <h2>New</h2>
+      <h2>Video</h2>
       <div class="wrap-vertical">
         {itemBox.map((element) => (
           <ItemBox
@@ -36,14 +36,6 @@ const ContentList = (props) => {
             price={element.price}
           />
         ))}
-      </div>
-
-      <h2 class="big-text">Category</h2>
-      <div class="wrap-vertical">
-        <div class="category-box">Art</div>
-        <div class="category-box">Photo</div>
-        <div class="category-box">Video</div>
-        <div class="category-box">Music</div>
       </div>
 
       {/*

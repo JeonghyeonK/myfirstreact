@@ -1,7 +1,7 @@
 import "./ContentList.css";
 import "./common.css";
-import ItemBox from "./ItemBox";
-import SideBar from "./SideBar";
+import ItemBox from "./ItemBox.js";
+import SideBar from "./SideBar.js";
 import axios from "axios";
 import { useEffect, useState } from "react";
 // 사용할 아이콘 import

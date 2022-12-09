@@ -4,7 +4,7 @@ import detectEthereumProvider from "@metamask/detect-provider";
 import { Web3Provider } from "@ethersproject/providers";
 import Web3 from "web3";
 import { Link } from "react-router-dom";
-import "./FontAwesome";
+import "./FontAwesome.js";
 // FontAwesomIcon 컴포넌트를 사용하기 위해 import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

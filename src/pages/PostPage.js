@@ -1,7 +1,7 @@
 import "./PostPage.css";
 
 // 사용할 아이콘 import
-import "../FontAwesome";
+import "../FontAwesome.js";
 // FontAwesomIcon 컴포넌트를 사용하기 위해 import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // 사용할 아이콘 import

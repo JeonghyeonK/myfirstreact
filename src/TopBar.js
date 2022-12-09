@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./TopBar.css";
-import SideBar from "./SideBar";
+import SideBar from "./SideBar.js";
 import { Link } from "react-router-dom";
 // 사용할 아이콘 import
-import "./FontAwesome";
+import "./FontAwesome.js";
 // FontAwesomIcon 컴포넌트를 사용하기 위해 import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

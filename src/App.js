@@ -1,16 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Second from "./pages/Second";
-import CreateNFT from "./pages/CreateNFT";
-import Fourth from "./pages/Fourth";
-import Fifth from "./pages/Fifth";
-import PostPage from "./pages/PostPage";
-import SideBar from "./SideBar";
-import ContentList from "./ContentList";
-import ContentListArt from "./ContentListArt";
-import ContentListPhoto from "./ContentListPhoto";
-import ContentListMusic from "./ContentListMusic";
-import ContentListVideo from "./ContentListVideo";
+import Second from "./pages/Second.js";
+import CreateNFT from "./pages/CreateNFT.js";
+import Fourth from "./pages/Fourth.js";
+import Fifth from "./pages/Fifth.js";
+import PostPage from "./pages/PostPage.js";
+import SideBar from "./SideBar.js";
+import ContentList from "./ContentList.js";
+import ContentListArt from "./ContentListArt.js";
+import ContentListPhoto from "./ContentListPhoto.js";
+import ContentListMusic from "./ContentListMusic.js";
+import ContentListVideo from "./ContentListVideo.js";
 
 function App() {
   return (
